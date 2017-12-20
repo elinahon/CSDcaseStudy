@@ -1,70 +1,107 @@
 body {
-    background: #D3D3D3;
-    border: 0px;
+    background: white;
     font-family: "Avenir Next";
+    font-size: 24px;
     margin: 0px;
     padding: 0px;
-}
-
-div.one {
-    background: #85298E;
-    color: white;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-}
-
-div.three {
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-}
-
-p {
-    border: 5px;
-    font-size: 25px;
-    line-height: 1.5;
-    margin: 5px;
-    padding: 5px;
-    text-align: center;
-}
-
-p.quote {
-    border: 5px;
-    font-size: 25px;
-    line-height: 1;
-    margin: 5px;
-    padding: 5px;
-    text-align: center;
-}
-
-p.person {
-    border: 5px;
-    font-size: 18px;
-    line-height: 1;
-    margin: 5px;
-    padding: 5px;
-    text-align: center;
-}
-
-p.big {
-    color: black;
-    font-size: 50px;
-    text-align: center;
 }
 
 #top {
-    border: 0px;
     font-size: 120px;
+    font-weight: 300;
     margin: 0px;
     padding: 0px;
 }
 
-a.links {
+.header {
+    background: #85298E;
     color: white;
-    font-size: 25px;
+    margin: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    font-size: 28px;
+    font-weight: 200;
     margin: 10px;
-    padding: 10px;
     text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #999;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.bottom-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: black;
+}
+
+a {
+    color: #85298E;
+    text-decoration: none;
+}
+
+.content {
+    margin: 10px;
+}
+
+.headings {
+    margin: 10px;
+}
+
+.first-paragraph {
+    margin-top: 0px;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+}
+.quote-container {
+    margin: 15px;
+    width: 60%;
+}
+
+.quote {
+    font-size: 28px;
+    line-height: 1;
+    margin: 5px;
+    padding: 5px;
+}
+
+.quote-left {
+    text-align: left;
+    align-self: flex-start;
+}
+
+.quote-right {
+    text-align: right;
+    align-self: flex-end;
+}
+
+.person {
+    color: #666;
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+}
+
+@media (max-width: 1200px) {
+    .row {
+        flex-direction: column;
+    }
 }
