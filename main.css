@@ -1,0 +1,70 @@
+body {
+    background: #D3D3D3;
+    border: 0px;
+    font-family: "Avenir Next";
+    margin: 0px;
+    padding: 0px;
+}
+
+div.one {
+    background: #85298E;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+div.three {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+p {
+    border: 5px;
+    font-size: 25px;
+    line-height: 1.5;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+p.quote {
+    border: 5px;
+    font-size: 25px;
+    line-height: 1;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+p.person {
+    border: 5px;
+    font-size: 18px;
+    line-height: 1;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+p.big {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+#top {
+    border: 0px;
+    font-size: 120px;
+    margin: 0px;
+    padding: 0px;
+}
+
+a.links {
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
